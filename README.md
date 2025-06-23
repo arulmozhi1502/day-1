@@ -51,11 +51,11 @@ Nmap done: 256 IP addresses (2 hosts up) scanned in 135.61 seconds
     5357  -- Windows services for device discovery
 
 10. Security Risks
-    135,139,445 -- High Risk level
-
-
+    135,139,445 -- High Risk level --> can be a block on public networks
+    602,5357 -- Medium Risk level
+    53 -- low Risj=k level 
     
-11.To save file
+11.To save Nmap TCP SYN scan file as txt
    --> nmap -sS 192.168.188.0/24 -oN scan_results.txt  or   -->  nmap -sS 192.168.188.0/24 -oN "C:\Users\ARULMOZHI\Documents\nmap_scan.txt"
 
 
