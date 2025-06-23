@@ -34,4 +34,6 @@ PORT     STATE SERVICE
 
 Nmap done: 256 IP addresses (2 hosts up) scanned in 135.61 seconds
 
-8.
+8. To save file
+   --> nmap -sS 192.168.188.0/24 -oN scan_results.txt  or   -->  nmap -sS 192.168.188.0/24 -oN "C:\Users\ARULMOZHI\Documents\nmap_scan.txt"
+
